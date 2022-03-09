@@ -1,0 +1,46 @@
+body{
+    background-color:rgb(48, 48, 131);
+}
+
+.container-fluid{
+    margin:30px;
+    border-left:30px;
+    background-color:blue;
+    }
+
+.main{
+    
+    background-color:white;
+}
+
+.imghead{
+    background-image: url("Assets/Home\ Picture.jpg");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.row1class{
+    color: whitesmoke;
+    font-family: 'League Spartan', sans-serif;
+    font-size:xxx-large;
+    height: 60px;
+}
+.row2class{
+    color: whitesmoke;
+    font-family: 'League Spartan', sans-serif;
+    font-size: Large;
+    
+}
+.mainlist{
+    color:white;
+    font-family
+}
+
+.listings{
+    
+}
+.col2class{
+    background-color: pink;
+}
