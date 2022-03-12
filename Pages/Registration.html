@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form | TenderTots </title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Righteous&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./regstyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<nav id="navbar">
+  <div id="logo">
+    <img src="../Images/img_home/Logo.png" alt="TenderTots.com">
+  </div>
+  <ul>
+    <li class="item"><a href="index.html">Home</a></li>
+    <li class="item"><a href="./Aboutus.html">About Us</a></li>
+    <li class="item"><a href="./OwnaFranchise.html">Own a Franchise</a></li>
+    <li class="item"><a href="./ContactUs.html">Contact Us</a></li>
+  </ul>
+  <div class="right">
+    <a href="./Registration.html" class="btnright">Register</a>
+    <a href="./Login Page.html" class="btnright">Login</a>
+  </div>
+</nav>
+
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="text" placeholder="Enter your password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="text" placeholder="Confirm your password" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="gender">Male</span>
+            </label>
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="gender">Female</span>
+            </label>
+            <label for="dot-3">
+              <span class="dot three"></span>
+              <span class="gender">Prefer not to say</span>
+            </label>
+          </div>
+        </div>
+        <a href="#popup1" class="btn">
+          Register
+        </a>
+        <div id="popup1" class="overlay">
+          <div class="popup">
+            <h2>Thank You</h2>
+            <a class="close" href="Login Page.html">&times;</a>
+            <div class="content">
+              Your account has been sucessfully registered ! Welcome to TenderTots. 😃
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>

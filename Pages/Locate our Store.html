@@ -1,0 +1,235 @@
+<html>
+
+<head>
+    <title>
+        Tender Tots | Locate Us
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </meta>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /* CSS Variable */
+        :root {
+            --navbar-height: 59px;
+        }
+
+        /* Navigation Bar  */
+        #navbar {
+            display: flex;
+            align-items: center;
+            position: relative;
+            top: 0px;
+            height: 112px;
+        }
+
+        /* Logo and Image  */
+        #logo {
+            margin: 9px 4px;
+        }
+
+        #logo img {
+            margin: 0px 2px;
+            height: 211.6px;
+            /*It was 317.5 x 280 originally*/
+            width: 186.67px;
+        }
+
+        /* Navigation Bar: List Styling  */
+        #navbar ul {
+            display: flex;
+            font-family: 'Knewave', cursive;
+            font-family: 'Righteous', cursive;
+        }
+
+        #navbar::before {
+            content: " ";
+            background-color: black;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.45;
+
+        }
+
+        #navbar ul li {
+            padding: 2px 3px;
+            list-style: none;
+            font-size: 1.43rem;
+        }
+
+        #navbar ul li a {
+            color: white;
+            display: block;
+            padding: 3px 32px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+
+        #navbar ul li a:hover,
+        #navbar ul li a.active {
+            color: black;
+            background-color: white;
+        }
+
+        .right {
+            position: absolute;
+            right: 0px;
+            top: 45px;
+            display: inline-block;
+            /* border: 2px solid yellow;*/
+        }
+
+        .btnright {
+            font-family: 'Knewave', cursive;
+            font-family: 'Righteous', cursive;
+            margin: 0px 25px;
+            color: white;
+            background-image: linear-gradient(135deg, #9b59b6, #71b7e6);
+            box-shadow: 0 1px 2px #333;
+            padding: 6px 34px;
+            /* border: 2px solid black; */
+            border-radius: 23px;
+            font-size: 1.37rem;
+            cursor: pointer;
+        }
+
+        .btnright:hover {
+            color: black;
+        }
+
+        .right a {
+            text-decoration: none;
+        }
+
+        div.content-card {
+            box-shadow: 0px 7px 6px 6px rgba(179, 69, 179, 0.37);
+            transition: 0.3s;
+            font-weight: bold;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background-color: white;
+            border-radius: 30px;
+            width: 537px;
+        }
+
+        div.content-container {
+            font-family: 'Roboto', sans-serif;
+            color: grey;
+            float: center;
+            padding-left: 20px
+        }
+
+        img.special {
+            position: absolute;
+            left: 400px;
+            top: -30px;
+            opacity: 0.7;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            padding: 10px;
+            border-radius: 60px;
+            margin-left: 170px;
+            margin-top: 100px;
+        }
+
+        .grid-item {
+            grid-row-start: 1;
+            grid-row-end: 3;
+            font-family: "Knewawe", cursive;
+            font-family: "Righteous", cursive;
+        }
+
+        body {
+            background: linear-gradient(135deg, #71b7e6, #9b59b6);
+        }
+
+        iframe {
+            border-radius: 20px;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Righteous&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="../Images/img_home/Logo.png" alt="TenderTots.com">
+        </div>
+        <ul>
+            <li class="item"><a href="../index.html">Home</a></li>
+            <li class="item"><a href="Aboutus.html">About Us</a></li>
+            <li class="item"><a href="OwnaFranchise.html">Own a Franchise</a></li>
+            <li class="item"><a href="ContactUs.html">Contact Us</a></li>
+        </ul>
+        <div class="right">
+            <a href="Registration.html" class="btnright">Register</a>
+            <a href="Login Page.html" class="btnright">Login</a>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="grid-container">
+            <div class="grid-item">
+                <div class="content-card">
+                    <div style="border-radius:30px">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34632.20927971438!2d-73.86890145180574!3d40.88767901707119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3efb191954c27967!2sTender%20Tots%20Child%20Care%20Center!5e0!3m2!1sen!2sin!4v1619265200351!5m2!1sen!2sin"
+                            width="527" height="299" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="content-container"><br>
+                        <p style="font-family: 'Righteous', cursive; margin-bottom:7px;">Tender Tots, Pune</p>
+                        #458, Tender Tots Enterprises, Divider Street,<br>
+                        Block C4G, HITEC City, Pune, India - 435009 <br><br>
+                        <p style="font-family: 'Righteous', cursive; margin-bottom:7px;">Call Us(Toll Free):</p>+91
+                        1234567890
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="content-card">
+                    <div style="border-radius:30px">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.0614109793305!2d77.6283273646459!3d13.03176129081644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1715f832af0f%3A0x84bf42516075036!2sTender%20Touch%2C%20HBR%20Layout%2C%20HBR%20Layout%204th%20Block%2C%20HBR%20Layout%2C%20Bengaluru%2C%20Karnataka%20560043!5e0!3m2!1sen!2sin!4v1619251594372!5m2!1sen!2sin"
+                            width="527" height="299" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="content-container"><br>
+                        <p style="font-family: 'Righteous', cursive; margin-bottom:7px">Tender Tots, Sohanpur</p>
+                        #54, Tender Tots Enterprises, 45th Cross, <br>
+                        Callahan's Square, Sohanpur, India - 909873 <br><br>
+                        <p style="font-family: 'Righteous', cursive; margin-bottom:7px;">Call Us(Toll Free):</p>+91
+                        9876543210
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <center>
+        <p style="text-align: center; font-family:'Righteous',cursive; color:white">Feel free to contact us at anytime
+            24/7</p>
+    </center>
+    <br><br><br><br><br><br><br><br><br>
+   
+
+    
+</body>
+
+</html>
